@@ -9,7 +9,8 @@
             double line1=lineOPeration.CalculateLength();
             Console.WriteLine("Calculating length of Line2");
             double line2=lineOPeration.CalculateLength();
-            lineOPeration.CheckEqualityOfLine(line1,line2);
+            //lineOPeration.CheckEqualityOfLine(line1,line2);
+            lineOPeration.CompareTwoLines(line1,line2);
         }
     }
 }
