@@ -38,5 +38,14 @@ namespace LineComparisionProblem
             else
                 Console.WriteLine("Both Lines are Equal");
         }
+        public void CompareTwoMethods(double method1, double method2)
+        {
+            if (method1.CompareTo(method2) < 0)
+                Console.WriteLine("Method2 is Greater Than Method1");
+            else if (method1.CompareTo(method2) > 0)
+                Console.WriteLine("Method2 is Less Than Method1");
+            else
+                Console.WriteLine("Both Methods are Equal");
+        }
     }
 }
